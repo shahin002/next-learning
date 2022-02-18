@@ -30,17 +30,17 @@ const SideBar = () => {
                                         Navigation</a></Link>
                                 </nav>
                             </div>
-                            <Link href={'/'}><a className="nav-link collapsed" data-toggle="collapse"
+                            <a className="nav-link collapsed" data-toggle="collapse"
                                                 data-target="#collapsePages" aria-expanded="false"
                                                 aria-controls="collapsePages">
                                 <div className="sb-nav-link-icon"><i className="fas fa-book-open"></i></div>
                                 Pages
                                 <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
-                            </a></Link>
+                            </a>
                             <div className="collapse" id="collapsePages" aria-labelledby="headingTwo"
                                  data-parent="#sidenavAccordion">
                                 <nav className="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <Link href={'/'}>
+
                                         <a className="nav-link collapsed" data-toggle="collapse"
                                            data-target="#pagesCollapseAuth" aria-expanded="false"
                                            aria-controls="pagesCollapseAuth">
@@ -49,11 +49,10 @@ const SideBar = () => {
                                                 <i className="fas fa-angle-down"></i>
                                             </div>
                                         </a>
-                                    </Link>
                                     <div className="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne"
                                          data-parent="#sidenavAccordionPages">
                                         <nav className="sb-sidenav-menu-nested nav">
-                                            <Link href={'/'}><a className="nav-link">Login</a></Link>
+                                            <Link href={'/login'}><a className="nav-link">Login</a></Link>
                                             <Link href={'/'}><a className="nav-link"
                                             >Register</a></Link>
                                             <Link href={'/'}><a className="nav-link">Forgot
