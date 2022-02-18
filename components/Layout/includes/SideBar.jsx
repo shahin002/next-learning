@@ -16,20 +16,18 @@ const SideBar = () => {
                                 </a>
                             </Link>
                             <div className="sb-sidenav-menu-heading">Interface</div>
-                            <Link href={'/'}><a className="nav-link collapsed" data-toggle="collapse"
+                            <a className="nav-link collapsed" data-toggle="collapse"
                                                 data-target="#collapseLayouts" aria-expanded="false"
                                                 aria-controls="collapseLayouts">
                                 <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
                                 Layouts
                                 <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
-                            </a></Link>
+                            </a>
                             <div className="collapse" id="collapseLayouts" aria-labelledby="headingOne"
                                  data-parent="#sidenavAccordion">
                                 <nav className="sb-sidenav-menu-nested nav">
-                                    <Link href={'/'}><a className="nav-link">Static
+                                    <Link href={'/layout-static'}><a className="nav-link">Static
                                         Navigation</a></Link>
-                                    <Link href={'/'}><a className="nav-link">Light
-                                        Sidenav</a></Link>
                                 </nav>
                             </div>
                             <Link href={'/'}><a className="nav-link collapsed" data-toggle="collapse"
