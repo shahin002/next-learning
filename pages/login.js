@@ -1,12 +1,7 @@
-import React, {Component} from 'react';
-
-
-class Login  {
-    render() {
-        return (
-            <>
-                login page
-            </>
-        );
-    }
+export default function Home() {
+    return (
+        <>
+            <h1>Login</h1>
+        </>
+    )
 }
